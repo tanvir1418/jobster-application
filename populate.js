@@ -8,6 +8,13 @@ const start = async (req, res) => {
   try {
     await connectDB(process.env.MONGO_URI);
     await Job.create(mockData);
+
+    // Assign all jobs to demo user
+    // await Job.updateMany(
+    //   {},
+    //   { $set: { createdBy: "6700f34137c078ae8bfa5e39" } }
+    // );
+
     console.log("Success !!!!");
     process.exit(0);
   } catch (error) {
