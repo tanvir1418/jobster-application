@@ -1,4 +1,4 @@
-import main from "../assets/images/main.svg";
+import main from "../assets/images/main.png";
 import Wrapper from "../assets/wrappers/LandingPage";
 import { Logo } from "../components";
 import { Link } from "react-router-dom";
@@ -16,9 +16,9 @@ const Landing = () => {
             job <span>tracking</span> app
           </h1>
           <p>
-            Crucifix narwhal street art asymmetrical, humblebrag tote bag pop-up
-            fixie raclette taxidermy craft beer. Brunch bitters synth, VHS
-            crucifix heirloom meggings bicycle rights.
+            Simplify your job search with an intuitive tool to track
+            applications, manage deadlines, and receive personalized alerts for
+            new opportunities. Stay organized and land your dream job!
           </p>
           <Link to="/register" className="btn btn-hero">
             Login/Register
